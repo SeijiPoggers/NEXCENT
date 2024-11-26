@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 5rem;
+}
+
+.logo{
+    width: 8rem;
+    height: auto;
+}
+
+.link{
+    text-decoration: none;
+    font-size: 1rem;
+    color: #4D4D4D;
+    margin: 1rem;
+    font-weight: 500;
+}
+
+.btn{
+    text-decoration: none;
+    font-size: 1rem;
+    color: #fafafa;
+    border-radius: 5px;
+    background-color: #4CAF4F;
+    padding: 1rem 1.5rem;
+}
+
+.lp{
+    height: 85vh;
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.title{
+    font-size: 4em;
+    color: #4D4D4D;
+    font-weight: 600;
+}
+
+.titlec{
+    font-size: 4rem;
+    color: #4CAF4F;
+    font-weight: 600;
+}
+
+.desc{
+    color: #717171;
+    font-size: 1rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.lpi{
+    width: 30vw;
+    height: auto;
+}
+
+.clients{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.midtitle{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #4D4D4D;
+    margin: 1rem;
+    text-align: center;
+}
+
+.client img{
+    margin: 2rem 6rem;
+    width: 3rem;
+    height: auto;
+}
+
+.grid{
+    width: 80vw;
+    height: 30vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    grid-template-columns: 3, 1fr;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fafafa;
+    width: 20vw;
+    height: 15vw;
+    -webkit-box-shadow: -9px 10px 10px 1px rgba(212,212,212,1);
+    -moz-box-shadow: -9px 10px 10px 1px rgba(212,212,212,1);
+    box-shadow: -9px 10px 10px 1px rgba(212,212,212,1);
+}
+
+.subtitle{
+    text-align: center;
+}
+
